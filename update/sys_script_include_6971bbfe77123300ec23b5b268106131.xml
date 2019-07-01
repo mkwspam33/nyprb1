@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_nyprb1.green6</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>green6</name>
+        <script><![CDATA[var green6 = Class.create();
+green6.prototype = {
+    initialize: function() {
+    },
+
+    type: 'green6'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-01 17:46:56</sys_created_on>
+        <sys_id>6971bbfe77123300ec23b5b268106131</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>green6</sys_name>
+        <sys_package display_value="nyprb1" source="sn_nyprb1">3c97a33677123300ec23b5b2681061c6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="nyprb1">3c97a33677123300ec23b5b2681061c6</sys_scope>
+        <sys_update_name>sys_script_include_6971bbfe77123300ec23b5b268106131</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-01 17:46:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
